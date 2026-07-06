@@ -66,11 +66,9 @@ img { display: block; max-width: 100%; }
 .brand-mark {
   width: 40px;
   height: 40px;
+  display: block;
+  flex: 0 0 40px;
   border-radius: 8px;
-  display: grid;
-  place-items: center;
-  color: white;
-  background: linear-gradient(135deg, var(--brand), var(--brand-2));
   box-shadow: 0 10px 24px rgba(20, 85, 217, 0.24);
 }
 
