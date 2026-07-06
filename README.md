@@ -117,4 +117,4 @@ https://wachin.github.io/yandri-franco-simulators/
 
 ## Licencia
 
-Licencia pendiente de definir por los autores del proyecto.
+Licencia pendiente de definir por los autores del proyecto
