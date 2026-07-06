@@ -18,8 +18,15 @@ para los estudiantes de la Unidad Educativa 30 de Septiembre.
 Espacio reservado para capturas del catálogo y de cada simulador:
 
 - `assets/images/catalogo.png`
-- `assets/images/hooke.png`
-- `assets/images/movimiento-parabolico.png`
+
+### Ley de Hooke
+
+![](assets/images/LeydeHooke-ezgif.com.gif)
+
+
+### Movimiento Parabólico
+
+![](assets/images/MovimientoParablico-ezgif.com.gif)
 
 ## Estructura
 
