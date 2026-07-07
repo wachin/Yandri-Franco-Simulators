@@ -6,7 +6,7 @@ Plataforma educativa de simuladores de Física desarrollada para publicarse como
 
 ## Créditos
 
-Simuladores desarrollados por Yandri Franco  
+Simuladores desarrollados por Yandri Macías  
 Diseño Web Washington Indacochea  
 para los estudiantes de la Unidad Educativa 30 de Septiembre.
 

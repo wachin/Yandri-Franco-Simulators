@@ -6,7 +6,7 @@ Educational Physics simulator platform built to be published as a static GitHub 
 
 ## Credits
 
-Simulators developed by Yandri Franco  
+Simulators developed by Yandri Macías  
 Web Design Washington Indacochea  
 for the students of Unidad Educativa 30 de Septiembre.
 
@@ -42,7 +42,7 @@ Space reserved for the catalog and simulator screenshots:
 - [x] `.nojekyll` file for GitHub Pages compatibility.
 - [x] Social sharing image configured for WhatsApp and Facebook.
 - [x] GitHub repository invitation block with fork call to action.
-- [ ] Add more simulations when Professor Yandri Franco sends them.
+- [ ] Add more simulations when Professor Yandri Macías sends them.
 
 ## Structure
 

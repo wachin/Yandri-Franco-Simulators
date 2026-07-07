@@ -11,4 +11,4 @@
 - [x] Archivo `.nojekyll` para compatibilidad con GitHub Pages.
 - [x] Imagen social configurada para compartir en WhatsApp y Facebook.
 - [x] Bloque de invitación al repositorio de GitHub con opción de fork.
-- [ ] Añadir más simulaciones cuando el profesor Yandri Franco las envíe. 
+- [ ] Añadir más simulaciones cuando el profesor Yandri Macías las envíe. 

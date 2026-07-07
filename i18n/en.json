@@ -1,6 +1,6 @@
 {
   "meta": {
-    "siteTitle": "Virtual Physics Lab | Yandri Franco",
+    "siteTitle": "Virtual Physics Lab | Yandri Macías",
     "siteDescription": "Educational Physics simulator platform for Unidad Educativa 30 de Septiembre students."
   },
   "nav": {
@@ -46,7 +46,7 @@
     "items": ["Simple pendulum", "Free fall", "Newton's laws", "Mechanical energy", "Waves", "Electric circuits", "Optics", "Circular motion", "Pressure", "Fluids"]
   },
   "credits": {
-    "line1": "Simulators developed by Yandri Franco",
+    "line1": "Simulators developed by Yandri Macías",
     "line2": "Web Design Washington Indacochea",
     "line3": "for the students of Unidad Educativa 30 de Septiembre."
   },
