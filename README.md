@@ -1,5 +1,7 @@
 # Laboratorio Virtual de Física
 
+English version for developers: [README_EN.md](README_EN.md)
+
 Plataforma educativa de simuladores de Física desarrollada para publicarse como sitio estático en GitHub Pages. El proyecto funciona como un catálogo escalable: cada simulador vive en su propia carpeta, tiene URL directa y se registra desde `data/simulators.json`.
 
 ## Créditos
