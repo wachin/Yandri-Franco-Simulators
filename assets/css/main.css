@@ -464,31 +464,68 @@ h1 {
 .repo-invite-card {
   width: min(920px, 100%);
   margin: 0 auto;
-  padding: 34px 28px;
   border: 1px solid rgba(217, 226, 239, 0.95);
   border-radius: 24px;
   background:
     linear-gradient(135deg, rgba(20, 85, 217, 0.08), rgba(15, 139, 141, 0.06)),
     rgba(255, 255, 255, 0.96);
   box-shadow: 0 24px 56px rgba(16, 24, 40, 0.12);
-  text-align: center;
 }
 
-.repo-icon {
-  width: 78px;
-  height: 78px;
-  margin: 0 auto 18px;
-  border-radius: 22px;
+.repo-summary {
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 16px;
+  padding: 24px 28px;
+  cursor: pointer;
+}
+
+.repo-summary::-webkit-details-marker {
+  display: none;
+}
+
+.repo-summary-icon {
+  width: 54px;
+  height: 54px;
+  border-radius: 16px;
   display: grid;
   place-items: center;
   color: white;
   background: linear-gradient(135deg, #111827, #1455d9);
-  box-shadow: 0 18px 36px rgba(17, 24, 39, 0.22);
+  box-shadow: 0 14px 28px rgba(17, 24, 39, 0.18);
 }
 
-.repo-icon svg {
-  width: 38px;
-  height: 38px;
+.repo-summary-icon svg {
+  width: 28px;
+  height: 28px;
+}
+
+.repo-summary-text {
+  text-align: left;
+  font-size: clamp(1.1rem, 2.5vw, 1.55rem);
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+.repo-summary-caret {
+  width: 14px;
+  height: 14px;
+  border-right: 3px solid var(--brand);
+  border-bottom: 3px solid var(--brand);
+  transform: rotate(45deg);
+  transition: transform 180ms ease;
+}
+
+.repo-invite-card[open] .repo-summary-caret {
+  transform: rotate(225deg);
+}
+
+.repo-details {
+  padding: 0 28px 30px;
+  text-align: center;
+  animation: repoDrop 180ms ease;
 }
 
 .repo-kicker {
@@ -499,16 +536,9 @@ h1 {
   text-transform: uppercase;
 }
 
-.repo-invite-card h2 {
-  margin: 12px auto 14px;
-  max-width: 16ch;
-  font-size: clamp(2rem, 4.4vw, 3.4rem);
-  line-height: 1;
-}
-
 .repo-copy {
   max-width: 60ch;
-  margin: 0 auto;
+  margin: 12px auto 0;
   color: var(--muted);
   font-size: 1.04rem;
   line-height: 1.7;
@@ -534,6 +564,17 @@ h1 {
   box-shadow: 0 22px 40px rgba(20, 85, 217, 0.26);
 }
 
+@keyframes repoDrop {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .site-footer {
   padding: 22px 16px;
   color: var(--muted);
@@ -555,6 +596,7 @@ h1 {
   .nav-links { display: none; }
   .hero-actions .button { width: 100%; }
   .section { padding: 52px 0; }
-  .repo-invite-card { padding: 28px 18px; }
+  .repo-summary,
+  .repo-details { padding-left: 18px; padding-right: 18px; }
   .repo-button { width: 100%; }
 }
